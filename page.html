@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MINHA PAGINA</title>
+    <style>
+        header {
+            display: flex;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: bisque;
+            background: brown;
+            align-items: center;
+            justify-content: space-around;
+            padding: 10px;
+            height: 70px;
+
+        }
+
+        a{
+            background: chocolate;
+            padding: 10px;
+            border: solid black 2px;
+
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+        }
+
+        img {
+            max-width: 600px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><a href="/"> Meu Logo </a></div>
+        <div>
+               <a href=""> Sobre</a>
+                <a href=""> Contato</a>
+            
+        </div>
+        <div>
+            <input type="text">
+            <button>Pesquisar</button>
+        </div>
+
+    </header>
+    <p>
+        Isso é um parágrafo <br>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit corporis cupiditate molestias, eveniet
+        repellendus deleniti porro asperiores modi, earum beatae, illo odio nemo assumenda. Necessitatibus autem minus
+        ipsam. Sint, exercitationem?
+    </p>
+    <div class="flex-container">
+        <div>
+            <img style="margin: 10px;"
+                src="https://images-cdn.newscred.com/Zz04NjA3ZjljMjQ0ODkxMWViOWRjYzU1OGJkNjI1ZjVkZA=="
+                alt="imagem de uma paisagem bela">
+
+        </div>
+        <div>
+            <img style="margin: 10px;" src="paisagem.jpg" alt="imagem de uma paisagem bela">
+
+        </div>
+        <div>
+            <img style="margin: 10px;"
+                src="https://images-cdn.newscred.com/Zz04NjA3ZjljMjQ0ODkxMWViOWRjYzU1OGJkNjI1ZjVkZA=="
+                alt="imagem de uma paisagem bela">
+
+        </div>
+        <div>
+            <img style="margin: 10px;" src="paisagem.jpg" alt="imagem de uma paisagem bela">
+
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
