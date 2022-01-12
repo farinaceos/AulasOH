@@ -50,3 +50,20 @@ li{
     align-items: center;
 
 }
+
+.js{
+    background-color: aqua;
+    padding: 10px;
+}
+
+.m5{
+    margin: 5px;
+}
+
+.mt5{
+    margin-top: 5px;
+}
+
+.mb5{
+    margin-bottom: 5px;
+}
